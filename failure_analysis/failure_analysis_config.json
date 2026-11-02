@@ -1,0 +1,22 @@
+{
+  "sample_size_per_dataset": 250,
+  "score_threshold": 0.25,
+  "iou_threshold": 0.5,
+  "random_seed": 42,
+  "models": [
+    "yolo11s",
+    "rtdetr-l",
+    "fasterrcnn-r50-fpn-v2"
+  ],
+  "classes": [
+    "person",
+    "car",
+    "truck",
+    "bus",
+    "bicycle",
+    "motorcycle"
+  ],
+  "max_examples_per_dataset": 3,
+  "matching": "Class-aware, score-ordered greedy matching",
+  "note": "Descriptive sample-level analysis, not official COCO AP/AR evaluation."
+}
